@@ -1,0 +1,6 @@
+284
+~E 1 "./src/TestBench/seqmul_entity_TB.vhd" 7 seqmul_entity_tb
+~A 1 "./src/TestBench/seqmul_entity_TB.vhd" 10 tb_architecture
+~E 1 "./src/SEQ_MUL.vhd" 30 seqmul_entity
+~A 1 "./src/SEQ_MUL.vhd" 40 seqmul_arch
+~C 1 "./src/TestBench/seqmul_entity_TB.vhd" 49 testbench_for_seqmul_entity

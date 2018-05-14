@@ -1,0 +1,18 @@
+elbread.dll ver. 1.0.5.375 Mon May 07 13:54:13 2018
+
+
+---------------------------------------------------
+Entity            | Architecture    | Library    
+---------------------------------------------------
+seqmul_entity_tb  | tb_architecture | seqmultiplier
+seqmul_entity     | seqmul_arch     | seqmultiplier
+---------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+-------------------------

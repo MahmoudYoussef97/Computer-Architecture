@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Seq_Multiplier\library.cfg"  -j "c:\My_Designs\Seq_Multiplier\SeqMultiplier\projlib.cfg"  -d "c:\My_Designs\Seq_Multiplier\SeqMultiplier\compile"   -work SeqMultiplier  -dbg -e 100 -2002 "c:\\My_Designs\\Seq_Multiplier\\SeqMultiplier\\src\\SEQ_MUL.vhd" 

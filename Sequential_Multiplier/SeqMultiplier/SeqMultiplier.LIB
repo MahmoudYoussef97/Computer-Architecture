@@ -1,0 +1,40 @@
+timestamp=1525680294755
+
+[seqmul_entity]
+A/seqmul_arch=A/SEQMUL_arch 21|./src/SEQ_MUL.vhd|40|1*96334
+B/seqmul_arch=3*34242
+I=0*27155
+I/seqmul_arch=I/SEQMUL_arch 0*31605
+M=11|0|v147|1525347474729|./src/SEQ_MUL.vhd|0*26814*0xe2615eae8ab529ec27bc6e84e842f08cc91c9acc|0*27077*0x7bd7e13dc0415552f89596087806a8cf
+M/seqmul_arch=M/SEQMUL_arch 21|0|v147|1525680294697|./src/SEQ_MUL.vhd|0*30920*0x5fa2bd48bcb584dc48d093cfadd8ea47961f3de5|0*31512*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/SEQ_MUL.vhd|30
+
+[seqmul_entity_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/seqmul_entity_TB.vhd|10|1*86950
+B/tb_architecture=3*33604
+I=0*2440
+I/tb_architecture=I/TB_ARCHITECTURE 0*25820
+M=11|0|v147|1525197929867|./src/TestBench/seqmul_entity_TB.vhd|0*2125*0x5229368c988fc9abb172fa3e1790f41917a05b2c|0*2340*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1525678717006|./src/TestBench/seqmul_entity_TB.vhd|0*25225*0x01b1cd1fb6f075b86ff487d5e1ae83743936c6c3|0*25701*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/seqmul_entity_TB.vhd|7
+
+[testbench_for_seqmul_entity]
+E=1*89148
+I=0*7464
+M=2|0|v147|1525678717013|./src/TestBench/seqmul_entity_TB.vhd|0*7017*0xc49cd91f2290fb4d39ac543b21ccd7de9f4228de|0*7334*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/seqmul_entity_TB.vhd|49
+
+[~A]
+ModifyID=284
+Version=73
+
+[~MFT]
+0=248|0SeqMultiplier.mgf|31605|27946
+1=118|1SeqMultiplier.mgf|96334|93661
+3=77|3SeqMultiplier.mgf|34242|33604
+
+[~U]
+seqmul_entity=11|0*26643|
+seqmul_entity_tb=11|0*2036|
+testbench_for_seqmul_entity=TESTBENCH_FOR_seqmul_entity 2||
+

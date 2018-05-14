@@ -1,0 +1,42 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=SeqMultiplier
+
+[Library]
+SeqMultiplier=.\SeqMultiplier.LIB
+
+[$LibMap$]
+SeqMultiplier=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=seqmul_entity_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/SEQ_MUL.vhd=-1
+TestBench/seqmul_entity_TB.vhd=-1
+TestBench/seqmul_entity_TB_runtest.do=-1
+
+[Files.Data]
+.\src\SEQ_MUL.vhd=VHDL Source Code
+.\src\TestBench\seqmul_entity_TB.vhd=VHDL Test Bench
+.\src\TestBench\seqmul_entity_TB_runtest.do=Macro
+

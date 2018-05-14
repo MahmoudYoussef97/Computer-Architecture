@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\Adder_Project\Adder_Project\src\TestBench\cla16_entity_TB.vhd" 
+MESSAGE "Compile Entity "cla16_entity_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "cla16_entity_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_cla16_entity"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

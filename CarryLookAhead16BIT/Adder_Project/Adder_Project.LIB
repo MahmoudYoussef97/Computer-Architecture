@@ -1,0 +1,69 @@
+timestamp=1525195388116
+
+[b_entity]
+A/b_arch=A/B_arch 21|./src/B_Cell.vhd|41|1*10075
+B/b_arch=3*7579
+I=0*1909
+I/b_arch=I/B_arch 0*2266
+M=11|0|v147|1524877292748|./src/B_Cell.vhd|0*1570*0xa5077f8c4b85d9bf08ba6a759bad6cb5ee97f66b|0*1837*0x7bd7e13dc0415552f89596087806a8cf
+M/b_arch=M/B_arch 21|0|v147|1525192068991|./src/B_Cell.vhd|0*2011*0x2a915e16a33684e67e0164eff16ad73c44fca0e7|0*2184*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/B_Cell.vhd|28
+
+[cla16_entity]
+A/cla16_arch=A/CLA16_arch 21|./src/16BIT_CLA.vhd|39|1*20974
+I=0*6481
+I/cla16_arch=I/CLA16_arch 0*7710
+M=11|0|v147|1525194571241|./src/16BIT_CLA.vhd|0*6115*0x2f20bf8b2011d09137a38b6a09f2cb33de80fbf3|0*6402*0x7bd7e13dc0415552f89596087806a8cf
+M/cla16_arch=M/CLA16_arch 21|0|v147|1525194756626|./src/16BIT_CLA.vhd|0*6587*0x197bef0d62270566c2db8d2a8369feda29b73ecd|0*7617*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/16BIT_CLA.vhd|28
+
+[cla16_entity_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/cla16_entity_TB.vhd|9|1*31783
+B/tb_architecture=3*10162
+I=0*8312
+I/tb_architecture=I/TB_ARCHITECTURE 0*10558
+M=11|0|v147|1525195083009|./src/TestBench/cla16_entity_TB.vhd|0*8029*0x181fba412fbc71ef860b1ca351ad7d74e32b23d0|0*8214*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1525195388057|./src/TestBench/cla16_entity_TB.vhd|0*9827*0x52a2f876169bf9e03c1c73a08f118daedcf9d73c|0*10441*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/cla16_entity_TB.vhd|6
+
+[cla4_entity]
+A/cla4_arch=A/CLA4_arch 21|./src/4BIT_CLA.vhd|41|1*16224
+B/cla4_arch=3*8925
+I=0*3040
+I/cla4_arch=I/CLA4_arch 0*5664
+M=11|0|v147|1524878709111|./src/4BIT_CLA.vhd|0*2636*0x4ecd6d222e6187299014c8a7a97e2bde1d8f30be|0*2963*0x7bd7e13dc0415552f89596087806a8cf
+M/cla4_arch=M/CLA4_arch 21|0|v147|1525192527658|./src/4BIT_CLA.vhd|0*4482*0x97f3e27dbb7b797cb998c2db9722577e1ca54585|0*5574*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/4BIT_CLA.vhd|28
+
+[cla_entity]
+A/cla_arch=A/CLA_arch 21|./src/CarryLookAhead.vhd|39|1*8112
+B/cla_arch=3*4979
+I=0*582
+I/cla_arch=I/CLA_arch 0*1248
+M=11|0|v147|1524877126751|./src/CarryLookAhead.vhd|0*214*0x3b9ead29072273042963d90a45b5b28af5fb7176|0*500*0x7bd7e13dc0415552f89596087806a8cf
+M/cla_arch=M/CLA_arch 21|0|v147|1525191750162|./src/CarryLookAhead.vhd|0*686*0xf7e5c6b59388b56dee45d2f34372c845b5b4637b|0*1154*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/CarryLookAhead.vhd|28
+
+[testbench_for_cla16_entity]
+E=1*34207
+I=0*9772
+M=2|0|v147|1525195388063|./src/TestBench/cla16_entity_TB.vhd|0*9337*0x4b0298a10c775bafd7a77a3034abb31c7efe378b|0*9645*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/cla16_entity_TB.vhd|50
+
+[~A]
+ModifyID=62
+Version=73
+
+[~MFT]
+0=49|0Adder_Project.mgf|10558|2253
+1=21|1Adder_Project.mgf|34207|18592
+3=15|3Adder_Project.mgf|10162|4979
+
+[~U]
+b_entity=B_entity 11|0*1361|
+cla16_entity=CLA16_entity 11|0*5892|
+cla16_entity_tb=11|0*7943|
+cla4_entity=CLA4_entity 11|0*2375|
+cla_entity=CLA_entity 11|0*0|
+testbench_for_cla16_entity=TESTBENCH_FOR_cla16_entity 2||
+

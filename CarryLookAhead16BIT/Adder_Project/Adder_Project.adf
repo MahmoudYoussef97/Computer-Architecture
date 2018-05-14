@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Adder_Project
+
+[Library]
+Adder_Project=.\Adder_Project.LIB
+
+[$LibMap$]
+Adder_Project=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=cla16_entity|cla16_arch|0 cla16_entity_tb|tb_architecture|0 cla_entity|cla_arch|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Files]
+/CarryLookAhead.vhd=-1
+/B_Cell.vhd=-1
+/4BIT_CLA.vhd=-1
+/16BIT_CLA.vhd=-1
+TestBench/cla16_entity_TB.vhd=-1
+TestBench/cla16_entity_TB_runtest.do=-1
+
+[Files.Data]
+.\src\CarryLookAhead.vhd=VHDL Source Code
+.\src\B_Cell.vhd=VHDL Source Code
+.\src\4BIT_CLA.vhd=VHDL Source Code
+.\src\16BIT_CLA.vhd=VHDL Source Code
+.\src\TestBench\cla16_entity_TB.vhd=VHDL Test Bench
+.\src\TestBench\cla16_entity_TB_runtest.do=Macro
+

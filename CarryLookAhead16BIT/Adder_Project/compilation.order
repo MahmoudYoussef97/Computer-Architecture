@@ -1,0 +1,5 @@
+.\src\CarryLookAhead.vhd
+.\src\B_Cell.vhd
+.\src\4BIT_CLA.vhd
+.\src\16BIT_CLA.vhd
+.\src\TestBench\cla16_entity_TB.vhd

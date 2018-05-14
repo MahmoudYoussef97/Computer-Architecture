@@ -1,0 +1,12 @@
+62
+~E 1 "./src/4BIT_CLA.vhd" 28 cla4_entity
+~A 1 "./src/4BIT_CLA.vhd" 41 cla4_arch
+~E 1 "./src/16BIT_CLA.vhd" 28 cla16_entity
+~A 1 "./src/16BIT_CLA.vhd" 39 cla16_arch
+~E 1 "./src/B_Cell.vhd" 28 b_entity
+~A 1 "./src/B_Cell.vhd" 41 b_arch
+~E 1 "./src/TestBench/cla16_entity_TB.vhd" 6 cla16_entity_tb
+~A 1 "./src/TestBench/cla16_entity_TB.vhd" 9 tb_architecture
+~E 1 "./src/CarryLookAhead.vhd" 28 cla_entity
+~A 1 "./src/CarryLookAhead.vhd" 39 cla_arch
+~C 1 "./src/TestBench/cla16_entity_TB.vhd" 50 testbench_for_cla16_entity

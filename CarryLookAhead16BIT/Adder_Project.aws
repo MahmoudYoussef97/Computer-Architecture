@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+adder_project=.\Adder_Project\Adder_Project.adf
+[Expand]
+adder_project=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

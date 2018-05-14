@@ -1,0 +1,174 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work Adder_Project -2002  $DSN/src/CarryLookAhead.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\CarryLookAhead.vhd
+# Compile Entity "CLA_entity"
+# Compile Architecture "CLA_arch" of Entity "CLA_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/B_Cell.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\B_Cell.vhd
+# Compile Entity "B_entity"
+# Compile Architecture "B_arch" of Entity "B_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/4BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\4BIT_CLA.vhd
+# Compile Entity "CLA4_entity"
+# Compile Architecture "CLA4_arch" of Entity "CLA4_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/4BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\4BIT_CLA.vhd
+# Compile Entity "CLA4_entity"
+# Compile Architecture "CLA4_arch" of Entity "CLA4_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/16BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\16BIT_CLA.vhd
+# Compile Entity "CLA16_entity"
+# Compile Architecture "CLA16_arch" of Entity "CLA16_entity"
+# Error: COMP96_0100: 16BIT_CLA.vhd : (69, 44): Actual parameter type in port map does not match the port formal type "Pi".
+# Error: COMP96_0525: 16BIT_CLA.vhd : (70, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (71, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (72, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (73, 2): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/16BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\16BIT_CLA.vhd
+# Compile Entity "CLA16_entity"
+# Compile Architecture "CLA16_arch" of Entity "CLA16_entity"
+# Error: COMP96_0100: 16BIT_CLA.vhd : (69, 44): Actual parameter type in port map does not match the port formal type "Pi".
+# Error: COMP96_0525: 16BIT_CLA.vhd : (70, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (71, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (72, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (73, 2): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/16BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\16BIT_CLA.vhd
+# Compile Entity "CLA16_entity"
+# Compile Architecture "CLA16_arch" of Entity "CLA16_entity"
+# Error: COMP96_0525: 16BIT_CLA.vhd : (70, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (71, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (72, 2): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0525: 16BIT_CLA.vhd : (73, 2): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/16BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\16BIT_CLA.vhd
+# Compile Entity "CLA16_entity"
+# Compile Architecture "CLA16_arch" of Entity "CLA16_entity"
+# Error: COMP96_0100: 16BIT_CLA.vhd : (70, 62): Actual parameter type in port map does not match the port formal type "Pi".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (70, 84): Actual parameter type in port map does not match the port formal type "Sum".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (71, 64): Actual parameter type in port map does not match the port formal type "Pi".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (71, 86): Actual parameter type in port map does not match the port formal type "Sum".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (72, 66): Actual parameter type in port map does not match the port formal type "Pi".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (72, 89): Actual parameter type in port map does not match the port formal type "Sum".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (73, 68): Actual parameter type in port map does not match the port formal type "Pi".
+# Error: COMP96_0100: 16BIT_CLA.vhd : (73, 92): Actual parameter type in port map does not match the port formal type "Sum".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work Adder_Project -2002  $DSN/src/16BIT_CLA.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\16BIT_CLA.vhd
+# Compile Entity "CLA16_entity"
+# Compile Architecture "CLA16_arch" of Entity "CLA16_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work Adder_Project -2002  $DSN/src/TestBench/cla16_entity_TB.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\TestBench\cla16_entity_TB.vhd
+# Compile Entity "cla16_entity_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cla16_entity_tb"
+# Compile Configuration "TESTBENCH_FOR_cla16_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  cla16_entity_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1779 kB (elbread=1024 elab2=481 kernel=273 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Adder_Project\Adder_Project\src\wave.asdb
+#  7:18 PM, Tuesday, May 1, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: cla16_entity_tb (tb_architecture)
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+acom -work Adder_Project -2002  $DSN/src/TestBench/cla16_entity_TB.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\TestBench\cla16_entity_TB.vhd
+# Compile Entity "cla16_entity_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cla16_entity_tb"
+# Compile Configuration "TESTBENCH_FOR_cla16_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  cla16_entity_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1779 kB (elbread=1024 elab2=481 kernel=273 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Adder_Project\Adder_Project\src\wave.asdb
+#  7:21 PM, Tuesday, May 1, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: cla16_entity_tb (tb_architecture)
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+endsim
+#  Simulation has been stopped
+asim -advdataflow  cla16_entity_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -work Adder_Project -2002  $DSN/src/TestBench/cla16_entity_TB.vhd
+# Compile...
+# File: c:\My_Designs\Adder_Project\Adder_Project\src\TestBench\cla16_entity_TB.vhd
+# Compile Entity "cla16_entity_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cla16_entity_tb"
+# Compile Configuration "TESTBENCH_FOR_cla16_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1779 kB (elbread=1024 elab2=481 kernel=273 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Adder_Project\Adder_Project\src\wave.asdb
+#  7:23 PM, Tuesday, May 1, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: cla16_entity_tb (tb_architecture)
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+#  Simulation has been stopped

@@ -1,0 +1,3 @@
+i<>.\src\ALU_OP.vhd
+i<>.\src\ALUOP_Package.vhd
+i<>.\src\TestBench\alu_entity_TB.vhd

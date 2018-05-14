@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=ALU_OP
+
+[Library]
+ALU_OP=.\ALU_OP.LIB
+
+[$LibMap$]
+ALU_OP=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=alu_entity_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ALU_OP.vhd=-1
+/ALUOP_Package.vhd=-1
+TestBench/alu_entity_TB.vhd=-1
+TestBench/alu_entity_TB_runtest.do=-1
+
+[Files.Data]
+.\src\ALU_OP.vhd=VHDL Source Code
+.\src\ALUOP_Package.vhd=VHDL Source Code
+.\src\TestBench\alu_entity_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_entity_TB_runtest.do=Macro
+

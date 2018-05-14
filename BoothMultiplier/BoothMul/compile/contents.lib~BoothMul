@@ -1,0 +1,6 @@
+143
+~E 1 "./src/TestBench/boothmul_entity_TB.vhd" 8 boothmul_entity_tb
+~A 1 "./src/TestBench/boothmul_entity_TB.vhd" 11 tb_architecture
+~E 1 "./src/BoothMultiplier.vhd" 28 boothmul_entity
+~A 1 "./src/BoothMultiplier.vhd" 38 boothmul_arch
+~C 1 "./src/TestBench/boothmul_entity_TB.vhd" 58 testbench_for_boothmul_entity

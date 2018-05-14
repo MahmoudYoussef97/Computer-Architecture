@@ -1,0 +1,40 @@
+timestamp=1525681222139
+
+[boothmul_entity]
+A/boothmul_arch=A/BoothMul_arch 21|./src/BoothMultiplier.vhd|38|1*48324
+B/boothmul_arch=3*24966
+I=0*20148
+I/boothmul_arch=I/BoothMul_arch 0*21120
+M=11|0|v147|1525681196499|./src/BoothMultiplier.vhd|0*19783*0xb003ef3d483a9f767784360ad0c8eb8377837faa|0*20060*0x7bd7e13dc0415552f89596087806a8cf
+M/boothmul_arch=M/BoothMul_arch 21|0|v147|1525681222083|./src/BoothMultiplier.vhd|0*20319*0x3aa41210bd7c7a574b9b804ad8c0fe1a2a398276|0*21015*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/BoothMultiplier.vhd|28
+
+[boothmul_entity_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/boothmul_entity_TB.vhd|11|1*45454
+B/tb_architecture=3*23259
+I=0*3591
+I/tb_architecture=I/TB_ARCHITECTURE 0*18757
+M=11|0|v147|1525448503302|./src/TestBench/boothmul_entity_TB.vhd|0*3231*0x5a21d75693d2ce41825a22f3fd254a2105307d1a|0*3487*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1525681219630|./src/TestBench/boothmul_entity_TB.vhd|0*18001*0xd4ae734f73789b493873ca14f468cd2c95819a7a|0*18634*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/boothmul_entity_TB.vhd|8
+
+[testbench_for_boothmul_entity]
+E=1*47747
+I=0*19548
+M=2|0|v147|1525681219636|./src/TestBench/boothmul_entity_TB.vhd|0*19077*0xcb1f1316dd4961fbc778b55549e4e402e2fc2ee7|0*19412*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/boothmul_entity_TB.vhd|58
+
+[~A]
+ModifyID=143
+Version=73
+
+[~MFT]
+0=140|0BoothMul.mgf|21120|16953
+1=52|1BoothMul.mgf|48324|45454
+3=37|3BoothMul.mgf|24966|23259
+
+[~U]
+boothmul_entity=11|0*19606|
+boothmul_entity_tb=11|0*3136|
+testbench_for_boothmul_entity=TESTBENCH_FOR_boothmul_entity 2||
+

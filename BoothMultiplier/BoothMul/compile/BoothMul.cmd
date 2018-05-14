@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\BoothMultiplier\library.cfg"  -j "c:\My_Designs\BoothMultiplier\BoothMul\projlib.cfg"  -d "c:\My_Designs\BoothMultiplier\BoothMul\compile"   -work BoothMul  -dbg -e 100 -2002 "c:\\My_Designs\\BoothMultiplier\\BoothMul\\src\\BoothMultiplier.vhd" 

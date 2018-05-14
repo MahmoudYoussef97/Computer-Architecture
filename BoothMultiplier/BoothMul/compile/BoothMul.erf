@@ -1,0 +1,4 @@
+MESSAGE "File: c:\My_Designs\BoothMultiplier\BoothMul\src\BoothMultiplier.vhd" 
+MESSAGE "Compile Entity "BoothMul_entity"" 
+MESSAGE "Compile Architecture "BoothMul_arch" of Entity "BoothMul_entity"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 
